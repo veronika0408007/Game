@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans Portfelis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project {
+            flex: 1 1 calc(33% - 40px);
+            padding: 20px;
+            border: 1px solid #ddd;
+            background-color: #fafafa;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mans Portfelis</h1>
+    </header>
+    
+    <section>
+        <h2>Par mani</h2>
+        <p>Es esmu izstrādātājs, kas specializējas tīmekļa tehnoloģijās un interaktīvo lietotņu veidošanā.</p>
+    </section>
+
+    <section>
+        <h2>Projekti</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Projekts 1</h3>
+                <p>Projekta 1 apraksts. <a href="https://github.com/jusu-projekts-1">Apskatīt</a></p>
+            </div>
+            <div class="project">
+                <h3>Projekts 2</h3>
+                <p>Projekta 2 apraksts. <a href="https://github.com/jusu-projekts-2">Apskatīt</a></p>
+            </div>
+            <div class="project">
+                <h3>Projekts 3</h3>
+                <p>Projekta 3 apraksts. <a href="https://github.com/jusu-projekts-3">Apskatīt</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mans Portfelis. Visas tiesības aizsargātas.</p>
+    </footer>
+</body>
+</html>
