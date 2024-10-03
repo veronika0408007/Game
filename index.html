@@ -1,85 +1,86 @@
 <!DOCTYPE html>
-<html lang="lv">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mans Portfelis</title>
+    <title>My Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0b3d91;
+            color: white;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
         }
         header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
             text-align: center;
+            padding: 50px 0;
+            background-color: #1e5bb7; 
         }
-        section {
-            max-width: 900px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        header h1 {
+            font-size: 3em;
+            color: silver; 
         }
-        h1, h2 {
-            color: #333;
+        .about, .projects {
+            background-color: #0b3d91; 
+            padding: 40px;
+            margin: 20px 0;
+            border: 2px solid white;
         }
-        .projects {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
+        h2 {
+            color: silver;
+            font-size: 2em;
         }
-        .project {
-            flex: 1 1 calc(33% - 40px);
-            padding: 20px;
-            border: 1px solid #ddd;
-            background-color: #fafafa;
-            text-align: center;
+        .about p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        .projects .project {
+            margin: 20px 0;
+        }
+        .projects .project h3 {
+            color: white;
+            font-size: 1.5em;
         }
         footer {
-            background-color: #333;
-            color: #fff;
             text-align: center;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            padding: 20px;
+            background-color: #1e5bb7; 
+            color: silver;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Mans Portfelis</h1>
+        <h1>Veronika Jariga</h1>
     </header>
-    
-    <section>
-        <h2>Par mani</h2>
-        <p>Es esmu izstrādātājs, kas specializējas tīmekļa tehnoloģijās un interaktīvo lietotņu veidošanā.</p>
-    </section>
 
-    <section>
-        <h2>Projekti</h2>
-        <div class="projects">
+    <div class="container">
+        <section class="about">
+            <h2>About Me</h2>
+            <p>This is a brief description about yourself, your interests in programming, and any relevant background.</p>
+        </section>
+
+        <section class="projects">
+            <h2>My Projects</h2>
             <div class="project">
-                <h3>Projekts 1</h3>
-                <p>Projekta 1 apraksts. <a href="https://github.com/jusu-projekts-1">Apskatīt</a></p>
+                <h3>Project 1</h3>
+                <p>Description of the project goes here. Include key features, technologies used, and links to the project if applicable.</p>
             </div>
             <div class="project">
-                <h3>Projekts 2</h3>
-                <p>Projekta 2 apraksts. <a href="https://github.com/jusu-projekts-2">Apskatīt</a></p>
+                <h3>Project 2</h3>
+                <p>Description of the project goes here. Include key features, technologies used, and links to the project if applicable.</p>
             </div>
-            <div class="project">
-                <h3>Projekts 3</h3>
-                <p>Projekta 3 apraksts. <a href="https://github.com/jusu-projekts-3">Apskatīt</a></p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <footer>
-        <p>&copy; 2024 Mans Portfelis. Visas tiesības aizsargātas.</p>
+        <p>&copy; 2024 Veronika. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
