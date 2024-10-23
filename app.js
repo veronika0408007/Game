@@ -1,7 +1,3 @@
-git add .
-git commit -m "Pievienota spēle Krustiņi un Nulle"
-git push origin main
-
 const board = document.getElementById('board');
 const cells = document.querySelectorAll('.cell');
 const statusText = document.getElementById('status');
